@@ -1,5 +1,5 @@
 {
-    "name": "simonxv/thinklib",
+    "name": "SimonXv/thinklib",
     "description": "thinkphp5.1 lib",
     "authors": [
         {
@@ -8,5 +8,13 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "files": [
+            "src/lib/helper.php"
+        ],
+        "psr-4": {
+            "simonxv\\thinklib\\": "src"
+        }
+    }
 }

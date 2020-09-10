@@ -1,0 +1,12 @@
+{
+    "name": "simonxv/thinklib",
+    "description": "thinkphp5.1 lib",
+    "authors": [
+        {
+            "name": "SimonXv",
+            "email": "495150620@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
